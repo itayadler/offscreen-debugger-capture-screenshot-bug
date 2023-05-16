@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Offscreen debugger Page.captureScreenshot bug",
+  "version": "1.0",
+  "description": "Offscreen debugger Page.captureScreenshot bug",
+  "icons": {
+    "128": "icon/icon128.png"
+  },
+  "content_scripts": [
+  ],
+  "background": {
+   "service_worker": "sw.js",
+   "type": "module"
+  },
+  "permissions": [
+    "offscreen",
+    "debugger"
+  ]
+}
